@@ -58,3 +58,30 @@ print(dinner[1].title() + ", you're still invited!")
 del dinner[1]
 del dinner[0]
 print(dinner)
+
+#Exercise 3.8:
+places = ["china", "portugal", "sweden", "germany", "switzerland"]
+print(places)
+print(sorted(places))
+print(places)
+print(sorted(places, reverse=True))
+print(places)
+places.reverse()
+print(places)
+places.reverse()
+print(places)
+places.sort()
+print(places)
+places.sort(reverse=True)
+print(places)
+
+#Exercise 3.9:
+dinner = ["mom", "dad", "brother", "grandmother"]
+print("I'm inviting " + str(len(dinner)) + " people for dinner today!")
+
+#Exercise 3.10:
+jobs = ["doctor", "engineer", "teacher", "firefigher", "lawyer"]
+print("Here's the original job list: " + str(jobs))
+print("Here's the sorted job list: " + str(sorted(jobs)))
+print("Here's the reverse-sorted job list: " + str(sorted(jobs, reverse=True)))
+print("Here's the reversed job list: " + str(list(reversed(jobs))))
